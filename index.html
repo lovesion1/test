@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    let enemy = 100,attack,count =0;
+    alert("대전시작")
+    while(enemy>0){
+      attack =Math.floor(Math.random()*30)+1
+      document.write("monter "+attack+"피해<br>")
+      enemy -=attack
+      count++
+    }
+  </script>
   <title>index</title>
 </head>
 <body>
